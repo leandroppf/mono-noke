@@ -10,3 +10,9 @@ $ npm install haku-ui
 $ yarn add haku-ui
 
 ```
+
+Its necessary to import our style in your main file
+
+```js
+import "haku-ui/dist/haku-ui.css";
+```

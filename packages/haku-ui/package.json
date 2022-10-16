@@ -1,20 +1,17 @@
 {
-  "name": "@lp-pedroso/haku-ui",
+  "name": "haku-ui",
   "private": false,
-  "version": "0.0.1-alpha",
+  "version": "0.0.5-alpha",
   "license": "MIT",
   "description": "A library to use for personal projects while i'm learning about this libraries world!",
-  "homepage": "https://github.com/leandroppf/haku-ui",
-  "author": {
-    "name": "Leandro Pedroso",
-    "email": "leandroppf@gmail.com"
-  },
+  "homepage": "https://github.com/leandroppf/mono-noke/tree/main/packages/haku-ui",
+  "author": "Leandro Pedroso <leandroppf@gmail.com>",
   "bugs": {
-    "url": "https://github.com/leandroppf/haku-ui/issues"
+    "url": "https://github.com/leandroppf/mono-noke/issues"
   },
   "repository": {
     "type": "github",
-    "url": "https://github.com/leandroppf/haku-ui"
+    "url": "git+https://github.com/leandroppf/mono-noke/tree/main/packages/haku-ui.git"
   },
   "keywords": [
     "haku",
