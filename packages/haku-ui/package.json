@@ -1,7 +1,7 @@
 {
-  "name": "haku-ui",
+  "name": "@lp-pedroso/haku-ui",
   "private": false,
-  "version": "0.0.3-alpha",
+  "version": "0.0.1-alpha",
   "license": "MIT",
   "description": "A library to use for personal projects while i'm learning about this libraries world!",
   "homepage": "https://github.com/leandroppf/haku-ui",
@@ -56,12 +56,16 @@
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "postcss": "^8.4.18",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "tailwindcss": "^3.1.8",
     "tsconfig": "*",
     "typescript": "^4.5.2",
     "vite": "^3.1.8",
     "vite-plugin-dts": "^1.6.6"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.0",
+    "clsx": "^1.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
