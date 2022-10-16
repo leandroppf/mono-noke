@@ -1,0 +1,67 @@
+{
+  "name": "haku-ui",
+  "private": false,
+  "version": "0.0.3-alpha",
+  "license": "MIT",
+  "description": "A library to use for personal projects while i'm learning about this libraries world!",
+  "homepage": "https://github.com/leandroppf/haku-ui",
+  "author": {
+    "name": "Leandro Pedroso",
+    "email": "leandroppf@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/leandroppf/haku-ui/issues"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/leandroppf/haku-ui"
+  },
+  "keywords": [
+    "haku",
+    "ui",
+    "haku-ui",
+    "vite",
+    "tailwind",
+    "components",
+    "components library",
+    "design system"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/haku-ui.umd.js",
+  "module": "./dist/haku-ui.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/haku-ui.es.js",
+      "require": "./dist/haku-ui.umd.js"
+    },
+    "./dist/haku-ui.css": "./dist/haku-ui.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && npm run build-tailwind",
+    "preview": "vite preview",
+    "build-tailwind": "NODE_ENV=production npx tailwindcss -o ./dist/haku-ui.css --minify",
+    "lint": "TIMING=1 eslint \"**/*.ts*\""
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "autoprefixer": "^10.4.12",
+    "cls": "^0.1.5",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "postcss": "^8.4.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.1.8",
+    "tsconfig": "*",
+    "typescript": "^4.5.2",
+    "vite": "^3.1.8",
+    "vite-plugin-dts": "^1.6.6"
+  }
+}
