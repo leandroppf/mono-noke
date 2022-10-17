@@ -1,10 +1,10 @@
 {
   "name": "haku-ui",
   "private": false,
-  "version": "0.0.5-alpha",
+  "version": "0.0.6-alpha",
   "license": "MIT",
   "description": "A library to use for personal projects while i'm learning about this libraries world!",
-  "homepage": "https://github.com/leandroppf/mono-noke/tree/main/packages/haku-ui",
+  "homepage": "https://haku-ui-docs.netlify.app/",
   "author": "Leandro Pedroso <leandroppf@gmail.com>",
   "bugs": {
     "url": "https://github.com/leandroppf/mono-noke/issues"
