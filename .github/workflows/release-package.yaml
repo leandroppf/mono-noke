@@ -8,13 +8,15 @@ on:
 jobs:
   publish-gpr:
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      packages: write
+      contents: read
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://npm.pkg.github.com/@leandroppf
+          registry-url: https://npm.pkg.github.com/leandroppf
       - run: npm ci
       - run: npm run build
       - run: cd packages/haku-ui
