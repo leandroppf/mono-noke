@@ -64,5 +64,8 @@
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "publishConfig": {
+   "@leandroppf:haku-ui": "https://npm.pkg.github.com"
   }
 }
