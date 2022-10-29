@@ -22,8 +22,5 @@
     "node": ">=14.0.0"
   },
   "dependencies": {},
-  "packageManager": "npm@8.19.2",
-  "publishConfig": {
-   "@leandroppf:haku-ui": "https://npm.pkg.github.com"
-  }
+  "packageManager": "npm@8.19.2"
 }

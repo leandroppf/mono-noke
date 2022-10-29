@@ -1,7 +1,7 @@
 {
   "name": "haku-ui",
   "private": false,
-  "version": "0.0.6-alpha",
+  "version": "0.0.9-alpha",
   "license": "MIT",
   "description": "A library to use for personal projects while i'm learning about this libraries world!",
   "homepage": "https://haku-ui-docs.netlify.app/",
@@ -11,7 +11,8 @@
   },
   "repository": {
     "type": "github",
-    "url": "git+https://github.com/leandroppf/mono-noke/tree/main/packages/haku-ui.git"
+    "url": "https://github.com/leandroppf/mono-noke.git",
+    "directory": "packages/haku-ui"
   },
   "keywords": [
     "haku",
@@ -64,8 +65,5 @@
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "publishConfig": {
-   "@leandroppf:haku-ui": "https://npm.pkg.github.com"
   }
 }
