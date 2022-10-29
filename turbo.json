@@ -1,12 +1,8 @@
 {
   "$schema": "https://turborepo.org/schema.json",
   "pipeline": {
-    "haku-ui": {
-      "dependsOn": ["^build"],
-      "outputs": ["dist/**"]
-    },
     "build": {
-      "dependsOn": ["^build"],
+      "dependsOn": [],
       "outputs": ["dist/**", ".next/**"]
     },
     "lint": {
