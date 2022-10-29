@@ -1,7 +1,7 @@
 {
   "name": "haku-ui",
   "private": false,
-  "version": "0.0.9-alpha",
+  "version": "0.0.10-alpha",
   "license": "MIT",
   "description": "A library to use for personal projects while i'm learning about this libraries world!",
   "homepage": "https://haku-ui-docs.netlify.app/",
