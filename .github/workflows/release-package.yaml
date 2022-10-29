@@ -16,8 +16,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://npm.pkg.github.com/leandroppf
-      - run: npm ci
+          registry-url: https://npm.pkg.github.com/
+          scope: "@leandroppf"
+      - run: npm i
       - run: npm run build
       - run: cd packages/haku-ui
       - run: npm publish
