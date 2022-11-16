@@ -1,7 +1,7 @@
 {
-  "name": "@leandroppf/haku-ui",
+  "name": "haku-ui",
   "private": false,
-  "version": "0.0.12-alpha",
+  "version": "0.0.13-alpha",
   "license": "MIT",
   "description": "A library to use for personal projects while i'm learning about this libraries world!",
   "homepage": "https://haku-ui-docs.netlify.app/",
@@ -65,8 +65,5 @@
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/leandroppf"
   }
 }
