@@ -17,11 +17,11 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies 🔧
         run: npm ci
-      - name: Enter haku-ui directory
-        run: cd packages/haku-ui
       - name: Build haku-ui
+        working-directory: ./packages/haku-ui
         run: npm run build
       - name: Publish package on NPM 📦
+        working-directory: ./packages/haku-ui
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
